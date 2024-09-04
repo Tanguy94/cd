@@ -30,6 +30,7 @@ jobs:
             registry: docker.io
             repository: tanguy94/cd
             tag_with_sha: true
+            tags: latest
 
         - name: Run Trivy vulnerability scanner
           uses: aquasecurity/trivy-action@master
